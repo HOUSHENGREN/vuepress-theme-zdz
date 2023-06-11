@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-theme-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vuepress/plugin-blog": "^1.9.4",
+    "vue-template-compiler": "^2.7.14",
+    "vuepress": "^1.9.9"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "description": ""
+}
