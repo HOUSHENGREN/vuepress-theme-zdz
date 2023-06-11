@@ -4,7 +4,7 @@ module.exports = (options, { themeConfig }) => {
       ['@vuepress/blog', {
         directories: [
           {
-            id: 'post',
+            id: 'post', // inject pid into each post.vue
             dirname: '_test',
             // dirname: '_post',
             path: '/',
@@ -14,6 +14,9 @@ module.exports = (options, { themeConfig }) => {
             },
           },
         ],
+        globalPagination: {
+          lengthPerPage: 5
+        },
         frontmatters: [
           {
             id: "tag",
@@ -28,6 +31,6 @@ module.exports = (options, { themeConfig }) => {
           },
         ]
       }],
-  ]
+    ]
   }
 }
