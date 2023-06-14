@@ -5,8 +5,8 @@
                 <router-link :to="item.path">{{ item.title }}</router-link>
             </li>
         </ul>
-        <Pagination></Pagination>
-        <!-- <Pagination v-if="$pagination.length > 1"></Pagination> -->
+        <!-- <Pagination></Pagination> -->
+        <Pagination v-if="$pagination.length > 1"></Pagination>
     </div>
 </template>
 

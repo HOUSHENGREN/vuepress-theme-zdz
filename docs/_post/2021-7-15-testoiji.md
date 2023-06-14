@@ -1,7 +1,0 @@
----
-tag: 
-    - angular
-    - react
----
-
-# puoiu

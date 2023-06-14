@@ -21,7 +21,7 @@ module.exports = (options, { themeConfig }) => {
           {
             id: "tag",
             keys: ['tag', 'tags'],
-            path: '/tag/',
+            path: '/tags/',
             // layout: 'Tag',
             frontmatter: { title: 'Tag' },
             // itemlayout: 'Tag',
@@ -42,6 +42,8 @@ module.exports = (options, { themeConfig }) => {
           },
         ]
       }],
+      require('./utils/index'),
+      // require('./plugin/theme-utils'),
     ]
   }
 }
